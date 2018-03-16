@@ -1,0 +1,617 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	<style type="text/css">
+	body, html,#allmap {width: 100%;height: 100%;overflow: hidden;margin:0;font-family:"微软雅黑";}
+	</style>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=1ok5MbxZMMA9ywQ9nHBhSwPl9O4mgtAM"></script>
+	<script type="text/javascript" src="http://api.map.baidu.com/library/LuShu/1.2/src/LuShu_min.js"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/library/DistanceTool/1.2/src/DistanceTool_min.js"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/library/RectangleZoom/1.2/src/RectangleZoom_min.js"></script>	<title>地图展示</title>
+</head>
+<body>
+	<div id="allmap"></div>
+	<div id="r-result" ></div>
+	<div id="n-result"></div>
+	<div id="point1"></div>
+	<div id="point2"></div>
+	<div id="class"></div>
+	<div id="city"></div>
+	<div id="pointx"></div>
+	<div id="pointy"></div>
+	<div id="cityname"></div>
+	<div id="longittude"></div>
+	<div id="latitude"></div>
+	<div id="carspeed"></div>
+	<div id="yanse"></div>
+	<div id="toumingdu"></div>
+	<div id="kuandu"></div>
+	<div id="pointnum"></div>
+	<div id="newpoint"></div>
+	<div id="buxingstart"></div>
+	<div id="buxingstop"></div>
+	<div id="zuobiaox"></div>
+	<div id="zuobiaoy"></div>
+	<div id="iconurl"></div>
+	<div id="iconwidth"></div>
+	<div id="iconheight"></div>
+	<div id="ceshidian"></div>
+	<div id="ceshidianx"></div>
+	<div id="ceshidiany"></div>
+	<div id="ceshidianb"></div>
+	<div id="weizhi1"></div>
+	<div id="weizhi2"></div>
+</body>
+</html>
+<script type="text/javascript">
+	var map = new BMap.Map("allmap",{enableMapClick:false});    // 创建Map实例
+	var geoc=new BMap.Geocoder();
+	var top_left_control = new BMap.ScaleControl({anchor: BMAP_ANCHOR_BOTTOM_LEFT});// 左下角，添加比例尺
+	var pointQD=new BMap.Point(118.937369,32.117985);
+	var pointJD1=new BMap.Point(118.935015,32.12011);
+	var pointJD2=new BMap.Point(118.935447,32.116135);
+	var pointJD3=new BMap.Point(118.933542,32.115095);
+	var pointZD=new BMap.Point(118.929662,32.115003);
+	var markerQD=new BMap.Marker();
+	var markerJD1=new BMap.Marker();
+	var markerJD2=new BMap.Marker();
+	var markerJD3=new BMap.Marker();
+	var markerZD=new BMap.Marker();
+	var polyline;
+	var polygon;
+	var overlays = [];
+	var newoverlays=[];
+	var addoverlays=[];
+	var mynewoverlays=[];
+	var points;
+	var labels;
+	var markers=new BMap.Marker();
+	var labelQD= new BMap.Label("起点",{offset:new BMap.Size(20,-10)});
+	var labelJD1= new BMap.Label("节点1",{offset:new BMap.Size(20,-10)});
+	var labelJD2= new BMap.Label("节点2",{offset:new BMap.Size(20,-10)});
+	var labelJD3= new BMap.Label("节点3",{offset:new BMap.Size(20,-10)});
+	var labelZD= new BMap.Label("终点",{offset:new BMap.Size(20,-10)});
+	var lushu= new BMapLib.LuShu();
+	var carspeed=9;
+	var iconcar=new BMap.Icon('./car.png', new BMap.Size(26,13),{anchor : new BMap.Size(14, 7)});
+	var yanse="blue";
+	var toumingdu=0.5;
+	var kuandu=10;
+	var nummm=1;
+	var driving2 ;
+	var newmarkersss=[];
+	var oldmarkersss=[];
+	var oo=0;
+	var ll=0;
+	var myDis = new BMapLib.DistanceTool(map);
+	var myDrag = new BMapLib.RectangleZoom(map, {
+    followText: "拖拽鼠标进行操作"});	
+	//var overViewOpen = new BMap.OverviewMapControl({isOpen:true, anchor: BMAP_ANCHOR_BOTTOM_RIGHT});
+	var top_left_navigation = new BMap.NavigationControl();  //左上角，添加默认缩放平移控件
+	var mapType=new BMap.MapTypeControl({mapTypes:[BMAP_NORMAL_MAP,BMAP_HYBRID_MAP]});
+	//var mapType=new BMap.MapTypeControl({anchor: BMAP_ANCHOR_TOP_RIGHT});
+	map.centerAndZoom(new BMap.Point(118.937369, 32.117985), 16);  // 初始化地图,设置中心点坐标和地图级别
+	//添加地图类型控件
+	map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放   
+	map.enableInertialDragging();
+    	map.enableContinuousZoom();
+	map.addControl(mapType);
+	//map.setCurrentCity("北京");
+	map.addControl(top_left_control);  
+	//map.addControl(overViewOpen);
+	map.addControl(top_left_navigation);
+	document.getElementById("carspeed").innerText ="9";
+	document.getElementById("yanse").innerText ="blue";	
+	document.getElementById("kuandu").innerText ="10";
+	document.getElementById("toumingdu").innerText ="0.5";
+
+	document.getElementById("pointx").innerText ="118.937369";
+	document.getElementById("pointy").innerText ="32.117985";
+	document.getElementById("city").innerText ="江苏省，南京市，栖霞区";
+	document.getElementById("point1").innerText = "";
+	document.getElementById("point2").innerText = "";
+	document.getElementById("class").innerText = "16";
+	map.addEventListener("click", showInfo);
+	map.addEventListener("zoomend",sfff);
+	function SuoFang(){
+//map.centerAndZoom(new BMap.Point(118.937369,32.117985), document.getElementById("class").innerText);
+map.centerAndZoom(map.getCenter(), document.getElementById("class").innerText);
+}
+ 	
+  	function ssss(){
+var drv = new BMap.DrivingRoute('北京', {
+        onSearchComplete: function(res) {
+            if (drv.getStatus() == BMAP_STATUS_SUCCESS) {
+                var plan = res.getPlan(0);
+                var arrPois =[];
+                for(var j=0;j<plan.getNumRoutes();j++){
+                    var route = plan.getRoute(j);
+                    arrPois= arrPois.concat(route.getPath());
+                }
+                map.addOverlay(new BMap.Polyline(arrPois, {strokeColor: '#111'}));
+              // map.setViewport(arrPois);
+                
+                lushu = new BMapLib.LuShu(map,arrPois,{
+                defaultContent:"",//"从天安门到百度大厦"
+                autoView:true,//是否开启自动视野调整，如果开启那么路书在运动过程中会根据视野自动调整
+                icon  : iconcar,
+                speed: carspeed,
+                enableRotation:true,//是否设置marker随着道路的走向进行旋转
+                landmarkPois: [
+                ]});          
+            }
+        }
+    });
+		drv.search(document.getElementById("point1").innerText,document.getElementById("point2").innerText);
+//lushu.start(); 
+  }
+	function showInfo(e){
+		var pt=e.point;
+		document.getElementById("pointx").innerText=pt.lng;
+		document.getElementById("pointy").innerText=pt.lat;
+		geoc.getLocation(pt, function(rs){
+			var addComp = rs.addressComponents;
+			document.getElementById("city").innerText=(addComp.province + ", " + addComp.city + ", " + addComp.district + ", " + addComp.street + ", " + addComp.streetNumber);
+			if(addComp.streetNumber=="")
+			document.getElementById("city").innerText=(addComp.province + ", " + addComp.city + ", " + addComp.district + ", " + addComp.street);
+			if(addComp.street=="")
+			document.getElementById("city").innerText=(addComp.province + ", " + addComp.city + ", " + addComp.district);
+			if(addComp.district=="")
+			document.getElementById("city").innerText=(addComp.province + ", " + addComp.city);
+			if(addComp.city=="")
+			document.getElementById("city").innerText=(addComp.province);
+		});        
+	}
+	function theLocation(){
+		var city=document.getElementById("cityname").innerText;
+		if(city!=""){
+			map.centerAndZoom(city,11);
+			}
+		}
+	function theLocation2(){
+		if(document.getElementById("longittude").innerText!=""&&	document.getElementById("latitude").innerText!=""){
+			map.clearOverlays();
+			var new_point=new BMap.Point(document.getElementById("longittude").innerText,document.getElementById("latitude").innerText);	
+			var marker = new BMap.Marker(new_point);
+			map.addOverlay(marker);
+			map.panTo(new_point);
+			
+}
+}
+	function enableQD(){
+		markerQD=new BMap.Marker(pointQD);
+		markerQD.enableDragging();
+		markerQD.setLabel(labelQD);
+		map.addOverlay(markerQD);
+		map.centerAndZoom(pointQD,document.getElementById("class").innerText);
+}
+	function enableJD1(){
+		markerJD1=new BMap.Marker(pointJD1);
+		markerJD1.enableDragging();
+		markerJD1.setLabel(labelJD1);
+		map.addOverlay(markerJD1);
+		map.centerAndZoom(pointJD1,document.getElementById("class").innerText);
+}
+	function enableJD2(){
+		markerJD2=new BMap.Marker(pointJD2);
+		markerJD2.enableDragging();
+		markerJD2.setLabel(labelJD2);
+		map.addOverlay(markerJD2);
+		map.centerAndZoom(pointJD2,document.getElementById("class").innerText);
+}
+	function enableJD3(){
+		markerJD3=new BMap.Marker(pointJD3);
+		markerJD3.enableDragging();
+		markerJD3.setLabel(labelJD3);
+		map.addOverlay(markerJD3);
+		map.centerAndZoom(pointJD3,document.getElementById("class").innerText);
+}
+	function enableZD(){
+		markerZD=new BMap.Marker(pointZD);
+		markerZD.enableDragging();
+		markerZD.setLabel(labelZD);
+		map.addOverlay(markerZD);
+		map.centerAndZoom(pointZD,document.getElementById("class").innerText);
+}
+	function disableQD(){		
+		map.removeOverlay(markerQD);
+		markerQD=new BMap.Marker();
+}
+	function disableJD1(){
+		map.removeOverlay(markerJD1);
+		markerJD1=new BMap.Marker();
+}
+	function disableJD2(){
+		map.removeOverlay(markerJD2);
+		markerJD2=new BMap.Marker();
+}
+	function disableJD3(){
+		map.removeOverlay(markerJD3);
+		markerJD3=new BMap.Marker();
+}
+	function disableZD(){
+		map.removeOverlay(markerZD);
+		markerZD=new BMap.Marker();
+}														
+function enableLX(){
+	while(markerQD.point==null||markerJD1.point==null||markerJD2.point==null||markerJD3.point==null||markerZD.point==null){
+if(markerQD.point==null)
+markerQD.point=markerJD1.point;
+if(markerJD1.point==null)
+markerJD1.point=markerJD2.point;
+if(markerJD2.point==null)
+markerJD2.point=markerJD3.point;
+if(markerJD3.point==null)
+markerJD3.point=markerZD.point;
+if(markerZD.point==null)
+markerZD.point=markerJD3.point;
+	}
+polyline=new BMap.Polyline([markerQD.point,markerJD1.point,markerJD2.point,markerJD3.point,markerZD.point],{strokeColor:"blue", strokeWeight:2, strokeOpacity:0.5});
+map.addOverlay(polyline);
+
+}	
+	function disableLX(){
+map.removeOverlay(polyline);
+polyline=new BMap.Polyline();
+}
+function enableLXCM(){
+	while(markerQD.point==null||markerJD1.point==null||markerJD2.point==null||markerJD3.point==null||markerZD.point==null){
+if(markerQD.point==null)
+markerQD.point=markerJD1.point;
+if(markerJD1.point==null)
+markerJD1.point=markerJD2.point;
+if(markerJD2.point==null)
+markerJD2.point=markerJD3.point;
+if(markerJD3.point==null)
+markerJD3.point=markerZD.point;
+if(markerZD.point==null)
+markerZD.point=markerJD3.point;
+	}
+
+polygon=new BMap.Polygon([markerQD.point,markerJD1.point,markerJD2.point,markerJD3.point,markerZD.point],{strokeColor:"blue", strokeWeight:2, strokeOpacity:0.5});
+map.addOverlay(polygon);
+
+}
+function disableLXCM(){
+map.removeOverlay(polygon);
+polygon=new BMap.Polygon();
+}
+function setDH(){
+
+}
+function enableDH(){
+	while(markerQD.point==null||markerJD1.point==null||markerJD2.point==null||markerJD3.point==null||markerZD.point==null){
+if(markerQD.point==null)
+markerQD.point=markerJD1.point;
+if(markerJD1.point==null)
+markerJD1.point=markerJD2.point;
+if(markerJD2.point==null)
+markerJD2.point=markerJD3.point;
+if(markerJD3.point==null)
+markerJD3.point=markerZD.point;
+if(markerZD.point==null)
+markerZD.point=markerJD3.point;
+	}
+ var arrPois =[markerQD.point,markerJD1.point,markerJD2.point,markerJD3.point,markerZD.point];
+                lushu = new BMapLib.LuShu(map,arrPois,{
+                defaultContent:"",//"从天安门到百度大厦"
+                autoView:true,//是否开启自动视野调整，如果开启那么路书在运动过程中会根据视野自动调整
+               icon:iconcar,
+                speed: carspeed,
+                enableRotation:true,//是否设置marker随着道路的走向进行旋转
+				                landmarkPois: []
+				}); 
+lushu.start();         
+}
+function disableDH(){
+lushu.stop();
+map.clearOverlays();
+}
+function addpoints(){
+	map.addEventListener("click", pttr);	
+}
+function pttr(e){
+	points=new BMap.Point(e.point.lng,e.point.lat);
+	labels=new BMap.Label("点"+nummm,{offset:new BMap.Size(20,-10)});
+	nummm++;
+	markers=new BMap.Marker(points);
+	markers.enableDragging();
+	map.addOverlay(markers);
+	markers.setLabel(labels);
+	//map.centerAndZoom(points,document.getElementById("class").innerText);
+	overlays.push(points);
+}
+function endaddpoints(){
+	map.removeEventListener("click", pttr);
+	polyline=new BMap.Polyline(overlays,{strokeColor:yanse, strokeWeight:kuandu, strokeOpacity:toumingdu});
+	map.addOverlay(polyline);
+	//nummm=1;
+}
+function guijibofang(){
+		addoverlays=[];
+		for(var i=0;i<overlays.length-1;i++){
+		var j=i+1;
+		addoverlays.push(overlays[i]);
+		for(var k=1;k<=100;k++){
+			addoverlays.push(new BMap.Point((overlays[j].lng-overlays[i].lng)*k/100+overlays[i].lng,(overlays[j].lat-overlays[i].lat)*k/100+overlays[i].lat));
+		}
+}
+                lushu = new BMapLib.LuShu(map,addoverlays,{
+                defaultContent:"",//"从天安门到百度大厦"
+                autoView:true,//是否开启自动视野调整，如果开启那么路书在运动过程中会根据视野自动调整
+               icon:iconcar,
+                speed: carspeed,
+                enableRotation:true,//是否设置marker随着道路的走向进行旋转
+				                landmarkPois: []
+				});
+lushu.start();  
+}
+function zanting(){
+lushu.pause();
+}
+function jixu(){
+lushu.start();
+}
+function tingzhi(){
+lushu.stop();
+}
+function xiaochecanshushezhi(){
+map.clearOverlays();
+overlays=[];
+carspeed=document.getElementById("carspeed").innerText;
+yanse=document.getElementById("yanse").innerText;
+kuandu=document.getElementById("kuandu").innerText;
+toumingdu=document.getElementById("toumingdu").innerText;
+}
+function getpointsnumber(){
+document.getElementById("pointnum").innerText=overlays.length;
+}
+function setpoints(){
+		map.clearOverlays();
+		var newpointeee=overlays[parseInt(document.getElementById("newpoint").innerText)-1];
+		newoverlays.push(newpointeee);	
+}
+function setpointsok(){
+overlays=[];
+overlays=newoverlays;
+newoverlays=[];
+}
+function newpoint(){
+	for(var i = 0; i < overlays.length; i++){           
+	   var markersss=new BMap.Marker(overlays[i]);
+		map.addOverlay(markersss);
+		var labelssss=new BMap.Label("点"+(i+1),{offset:new BMap.Size(20,-10)});
+		markersss.setLabel(labelssss);
+}
+polyline=new BMap.Polyline(overlays,{strokeColor:yanse, strokeWeight:kuandu, strokeOpacity:toumingdu});
+	map.addOverlay(polyline);
+}
+function myposition(){
+map.centerAndZoom(new BMap.Point(118.937369, 32.117985), 16);
+}	
+function resecttt(){
+map.clearOverlays();
+overlays = [];
+addoverlays=[];
+nummm=1;
+lushu=null;
+document.getElementById("ceshidian").innerText="";
+}
+function buxing(){
+var transit = new BMap.TransitRoute(map, {renderOptions: {map: map},onSearchComplete: function(result){       
+		if (transit.getStatus() == BMAP_STATUS_SUCCESS){
+			var firstPlan = result.getPlan(0);
+			// 绘制步行线路
+			for (var i = 0; i < firstPlan.getNumRoutes(); i++){
+				var walk = firstPlan.getRoute(i);
+				if (walk.getDistance(false) > 0){
+					// 步行线路有可能为0
+					map.addOverlay(new BMap.Polyline(walk.getPath(), {lineColor: "green"}));
+				}
+			}
+			// 绘制公交线路
+			for (i = 0; i < firstPlan.getNumLines(); i++){
+				var line = firstPlan.getLine(i);
+				map.addOverlay(new BMap.Polyline(line.getPath()));
+			}
+			// 输出方案信息
+			var s = [];
+			for (i = 0; i < result.getNumPlans(); i++){
+				s.push((i + 1) + ". " + result.getPlan(i).getDescription(false));
+			}
+			document.getElementById("n-result").innerText = ""+s;
+		}
+	}
+	});
+transit.search(document.getElementById("buxingstart").innerText, document.getElementById("buxingstop").innerText); 
+
+}
+function jisuanluchengshijian(){
+var output = "从"+document.getElementById("point1").innerText+"到"+document.getElementById("point2").innerText+"驾车需要";
+var searchComplete = function (results){
+		if (transit.getStatus() != BMAP_STATUS_SUCCESS){
+			return ;
+		}
+var plan = results.getPlan(0);
+		output += plan.getDuration(true) + "\n";                //获取时间
+		output += "总路程为：" ;
+		output += plan.getDistance(true) + "\n";             //获取距离
+	}
+	var transit = new BMap.DrivingRoute(map, {renderOptions: {map: map},
+		onSearchComplete: searchComplete,
+		onPolylinesSet: function(){        
+			setTimeout(function(){alert(output)},"1000");
+	}});
+transit.search(document.getElementById("point1").innerText, document.getElementById("point2").innerText);
+}
+function openceju(){
+myDis.open();
+}
+function closeceju(){
+myDis.close();
+}
+function oplakuangfangda(){
+myDrag.open();
+}
+function cllakuangfangda(){
+myDrag.close();
+}
+function addsuonuetu(){
+map.addControl(overViewOpen);
+}
+function removesuonuetu(){
+map.removeControl(overViewOpen);
+}
+function addcitylist(){
+map.addControl(top_left_navigation);
+}
+function removecitylist(){
+map.removeControl(top_left_navigation);
+}
+function huoquzuobiaodian(){
+map.addEventListener("click", huoquzuobiao);
+}
+function huoquzuobiao(e){
+document.getElementById("zuobiaox").innerText=e.point.lng;
+document.getElementById("zuobiaoy").innerText=e.point.lat;
+}
+function endhuoquzuobiaodian(){
+map.removeEventListener("click",huoquzuobiao);
+}
+function tianjiatuxiang(){
+var pt = new BMap.Point(document.getElementById("zuobiaox").innerText, document.getElementById("zuobiaoy").innerText);
+var myIcon = new BMap.Icon(document.getElementById("iconurl").innerText, new BMap.Size(parseInt(document.getElementById("iconwidth").innerText),parseInt(document.getElementById("iconheight").innerText)));
+var marker2 = new BMap.Marker(pt,{icon:myIcon});
+marker2.enableDragging();
+map.addOverlay(marker2);
+}
+function sfff(e){
+document.getElementById("class").innerText=map.getZoom()+"";
+}
+function addpointsew(){
+	map.addEventListener("click", pttr);	
+}
+function pttr(e){
+	var myDate = new Date();
+	points=new BMap.Point(e.point.lng,e.point.lat);
+	document.getElementById("ceshidian").innerText+=nummm+"','";
+	document.getElementById("ceshidian").innerText+="测试点"+nummm+"','";
+	document.getElementById("ceshidian").innerText+="测试点','";
+	document.getElementById("ceshidian").innerText+=myDate.toLocaleString( )+"','";
+	document.getElementById("ceshidian").innerText+=e.point.lat+"N','";
+	document.getElementById("ceshidian").innerText+=e.point.lng+"E','";
+	document.getElementById("ceshidian").innerText+="地图定位;"
+	labels=new BMap.Label("测试点"+nummm,{offset:new BMap.Size(20,-10)});
+	nummm++;
+	oldmarkersss[oo]=new BMap.Marker(points);
+	oldmarkersss[oo].enableDragging();
+	map.addOverlay(oldmarkersss[oo]);
+	oldmarkersss[oo].setLabel(labels);
+	//map.centerAndZoom(points,document.getElementById("class").innerText);
+	overlays.push(points);
+	oo++;
+}
+function endaddpointsew(){
+	oo=0;
+	map.removeOverlay(polyline);
+	map.removeEventListener("click", pttr);
+	polyline=new BMap.Polyline(overlays,{strokeColor:yanse, strokeWeight:kuandu, strokeOpacity:toumingdu});
+	map.addOverlay(polyline);
+	//nummm=1;
+}
+function ShengChengDian(){
+var point=new BMap.Point(document.getElementById("ceshidianx").innerText, document.getElementById("ceshidiany").innerText);
+mynewoverlays.push(point);
+var labels=new BMap.Label("点"+document.getElementById("ceshidianb").innerText,{offset:new BMap.Size(20,-10)});
+newmarkersss[ll]=new BMap.Marker(point);
+//markers.enableDragging();
+map.addOverlay(newmarkersss[ll]);
+newmarkersss[ll].setLabel(labels);
+ll++;
+}
+function ShengChengXian(){
+polyline=new BMap.Polyline(mynewoverlays,{strokeColor:yanse, strokeWeight:kuandu, strokeOpacity:toumingdu});
+map.addOverlay(polyline);
+}
+function ShanChuDian(){
+map.removeOverlay(polyline);
+var point=new BMap.Point(document.getElementById("ceshidianx").innerText, document.getElementById("ceshidiany").innerText);
+mynewoverlays=[];
+for(var i=0;i<newmarkersss.length;i++)
+map.removeOverlay(newmarkersss[i]);
+newmarkersss=[];
+ll=0;
+}
+function ShanChuYiDian(){
+for(var i=0;i<newmarkersss.length;i++){
+if(newmarkersss[i].getLabel()==("点"+document.getElementById("ceshidianb").innerText)){
+map.removeOverlay(newmarkersss[i]);
+}
+}
+}
+function SuoFangDaoDian(){
+var point=new BMap.Point(document.getElementById("ceshidianx").innerText, document.getElementById("ceshidiany").innerText);
+map.centerAndZoom(point, document.getElementById("class").innerText);
+}
+function guijibofang2(){
+		addoverlays=[];
+		for(var i=0;i<mynewoverlays.length-1;i++){
+		var j=i+1;
+		addoverlays.push(mynewoverlays[i]);
+		//for(var k=1;k<=100;k++){
+		//	addoverlays.push(new BMap.Point((mynewoverlays[j].lng-mynewoverlays//[i].lng)*k/100+mynewoverlays[i].lng,(mynewoverlays[j].lat-mynewoverlays//[i].lat)*k/100+mynewoverlays[i].lat));
+	//	}
+}
+                lushu = new BMapLib.LuShu(map,addoverlays,{
+                defaultContent:"",//"从天安门到百度大厦"
+                autoView:true,//是否开启自动视野调整，如果开启那么路书在运动过程中会根据视野自动调整
+               icon:iconcar,
+                speed: carspeed,
+                enableRotation:true,//是否设置marker随着道路的走向进行旋转
+				                landmarkPois: []
+				});
+lushu.start();  
+}
+function WoDangQianWZ(){
+	var geolocation = new BMap.Geolocation();
+	geolocation.getCurrentPosition(function(r){
+		if(this.getStatus() == BMAP_STATUS_SUCCESS){
+			//var mk = new BMap.Marker(r.point);
+			//map.addOverlay(mk);
+			//map.panTo(r.point);
+			document.getElementById("weizhi1").innerText=r.point.lng;
+			document.getElementById("weizhi2").innerText=r.point.lat;
+		}
+		else {
+			alert('failed'+this.getStatus());
+		}        
+	},{enableHighAccuracy: true})
+}
+function SSDW(){
+map.centerAndZoom(new BMap.Point(document.getElementById("weizhi1").innerText, document.getElementById("weizhi2").innerText), document.getElementById("class").innerText);
+}
+function AddMapType(){
+map.addControl(mapType);
+//map.setCurrentCity("北京");
+}
+function RemoveMapType(){
+map.removeControl(mapType);
+}
+function AddBiLiChi(){
+map.addControl(top_left_control); 
+}
+function RemoveBiLiChi(){
+map.removeControl(top_left_control); 
+}
+function QuanJing(){
+map.centerAndZoom("北京", 5);
+}
+function ShuaXin(){
+map.centerAndZoom(map.getCenter(), document.getElementById("class").innerText);
+}
+function SFGH(){
+map.centerAndZoom(new BMap.Point(116.404, 39.915), 5);
+}
+</script>
