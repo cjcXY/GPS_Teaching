@@ -1,0 +1,238 @@
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\obj\x86\Release\Interop.Office.dll
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.csproj.ResolveComReference.cache
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\bin\Release\GPSTeachingSys.exe
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\bin\Release\GPSTeachingSys.pdb
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\bin\Release\Microsoft.CSharp.dll
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\bin\Release\PresentationCore.dll
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\bin\Release\PresentationFramework.dll
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\bin\Release\stdole.dll
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\bin\Release\System.Data.DataSetExtensions.dll
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\bin\Release\System.Data.dll
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\bin\Release\System.Deployment.dll
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\bin\Release\System.dll
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\bin\Release\System.Drawing.dll
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\bin\Release\System.Web.dll
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\bin\Release\System.Windows.Forms.dll
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\bin\Release\System.Xaml.dll
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\bin\Release\System.Xml.dll
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\bin\Release\System.Xml.Linq.dll
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\bin\Release\UIAutomationProvider.dll
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\bin\Release\WindowsBase.dll
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\bin\Release\WindowsFormsIntegration.dll
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\bin\Release\Office.dll
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\bin\Release\Microsoft.Office.Interop.Excel.dll
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\bin\Release\Microsoft.mshtml.dll
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\bin\Release\Microsoft.Vbe.Interop.dll
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\bin\Release\Interop.Office.dll
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.csprojResolveAssemblyReference.cache
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.Form1.resources
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.BXLX.resources
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.CeShiDian.resources
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.DLSJ.resources
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.DMDW.resources
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.GJHFSZ.resources
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.GpxShuJuZhuanHuan.resources
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.LX.resources
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.MyPosition.resources
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.QingKongShuJuKu.resources
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.QRDH.resources
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.SheZhiTuPianShuXing.resources
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.SJGL.resources
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.XCCSSZ.resources
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.ZBDW.resources
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.Properties.Resources.resources
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.csproj.GenerateResource.Cache
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.exe
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.pdb
+D:\项目\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.csproj.ResolveComReference.cache
+D:\项目\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.exe
+D:\项目\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.pdb
+D:\项目\GPSTeachingSys\GPSTeachingSys\bin\Release\GPSTeachingSys.exe
+D:\项目\GPSTeachingSys\GPSTeachingSys\bin\Release\GPSTeachingSys.pdb
+D:\项目\GPSTeachingSys\GPSTeachingSys\bin\Release\Microsoft.CSharp.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\bin\Release\PresentationCore.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\bin\Release\PresentationFramework.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\bin\Release\stdole.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\bin\Release\System.Data.DataSetExtensions.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\bin\Release\System.Data.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\bin\Release\System.Deployment.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\bin\Release\System.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\bin\Release\System.Drawing.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\bin\Release\System.Web.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\bin\Release\System.Windows.Forms.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\bin\Release\System.Xaml.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\bin\Release\System.Xml.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\bin\Release\System.Xml.Linq.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\bin\Release\UIAutomationProvider.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\bin\Release\WindowsBase.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\bin\Release\WindowsFormsIntegration.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\bin\Release\Office.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\bin\Release\Microsoft.Office.Interop.Excel.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\bin\Release\Microsoft.mshtml.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\bin\Release\Microsoft.Vbe.Interop.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.csprojResolveAssemblyReference.cache
+D:\项目\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.Form1.resources
+D:\项目\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.BXLX.resources
+D:\项目\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.CeShiDian.resources
+D:\项目\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.DLSJ.resources
+D:\项目\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.DMDW.resources
+D:\项目\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.GJHFSZ.resources
+D:\项目\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.GpxShuJuZhuanHuan.resources
+D:\项目\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.LX.resources
+D:\项目\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.MyPosition.resources
+D:\项目\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.QingKongShuJuKu.resources
+D:\项目\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.QRDH.resources
+D:\项目\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.SheZhiTuPianShuXing.resources
+D:\项目\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.SJGL.resources
+D:\项目\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.XCCSSZ.resources
+D:\项目\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.ZBDW.resources
+D:\项目\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.Properties.Resources.resources
+D:\项目\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.csproj.GenerateResource.Cache
+D:\项目\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\Interop.Office.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\bin\Release\Interop.Office.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\_3DGIS.FrmAboutBox.resources
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\obj\x86\Release\Interop.Office.dll
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.csproj.ResolveComReference.cache
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.exe
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.pdb
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.csprojResolveAssemblyReference.cache
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\bin\Release\GPSTeachingSys.exe
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\bin\Release\GPSTeachingSys.pdb
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\bin\Release\Microsoft.CSharp.dll
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\bin\Release\PresentationCore.dll
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\bin\Release\PresentationFramework.dll
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\bin\Release\stdole.dll
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\bin\Release\System.Data.DataSetExtensions.dll
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\bin\Release\System.Data.dll
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\bin\Release\System.Deployment.dll
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\bin\Release\System.dll
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\bin\Release\System.Drawing.dll
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\bin\Release\System.Web.dll
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\bin\Release\System.Windows.Forms.dll
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\bin\Release\System.Xaml.dll
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\bin\Release\System.Xml.dll
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\bin\Release\System.Xml.Linq.dll
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\bin\Release\UIAutomationProvider.dll
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\bin\Release\WindowsBase.dll
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\bin\Release\WindowsFormsIntegration.dll
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\bin\Release\Office.dll
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\bin\Release\Microsoft.Office.Interop.Excel.dll
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\bin\Release\Microsoft.mshtml.dll
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\bin\Release\Microsoft.Vbe.Interop.dll
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\bin\Release\Interop.Office.dll
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.Form1.resources
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\obj\x86\Release\_3DGIS.FrmAboutBox.resources
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.BXLX.resources
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.CeShiDian.resources
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.DLSJ.resources
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.DMDW.resources
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.GJHFSZ.resources
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.GpxShuJuZhuanHuan.resources
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.LX.resources
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.MyPosition.resources
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.QingKongShuJuKu.resources
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.QRDH.resources
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.SheZhiTuPianShuXing.resources
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.SJGL.resources
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.XCCSSZ.resources
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.ZBDW.resources
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.Properties.Resources.resources
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.csproj.GenerateResource.Cache
+D:\项目\GPSTeachingSys - 副本\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.KML.resources
+D:\项目\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.KML.resources
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\Interop.Office.dll
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.csproj.ResolveComReference.cache
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.exe
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.pdb
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\bin\Release\GPSTeachingSys.exe
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\bin\Release\GPSTeachingSys.pdb
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\bin\Release\Microsoft.CSharp.dll
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\bin\Release\PresentationCore.dll
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\bin\Release\PresentationFramework.dll
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\bin\Release\stdole.dll
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\bin\Release\System.Data.DataSetExtensions.dll
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\bin\Release\System.Data.dll
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\bin\Release\System.Deployment.dll
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\bin\Release\System.dll
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\bin\Release\System.Drawing.dll
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\bin\Release\System.Web.dll
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\bin\Release\System.Windows.Forms.dll
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\bin\Release\System.Xaml.dll
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\bin\Release\System.Xml.dll
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\bin\Release\System.Xml.Linq.dll
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\bin\Release\UIAutomationProvider.dll
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\bin\Release\WindowsBase.dll
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\bin\Release\WindowsFormsIntegration.dll
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\bin\Release\Office.dll
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\bin\Release\Microsoft.Office.Interop.Excel.dll
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\bin\Release\Microsoft.mshtml.dll
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\bin\Release\Microsoft.Vbe.Interop.dll
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\bin\Release\Interop.Office.dll
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.csprojResolveAssemblyReference.cache
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.Form1.resources
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\_3DGIS.FrmAboutBox.resources
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.BXLX.resources
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.CeShiDian.resources
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.DLSJ.resources
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.DMDW.resources
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.GJHFSZ.resources
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.GpxShuJuZhuanHuan.resources
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.KML.resources
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.LX.resources
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.MyPosition.resources
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.QingKongShuJuKu.resources
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.QRDH.resources
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.SheZhiTuPianShuXing.resources
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.SJGL.resources
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.XCCSSZ.resources
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.ZBDW.resources
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.Properties.Resources.resources
+D:\项目\GPSTeachingSys_new\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.csproj.GenerateResource.Cache
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\Interop.Office.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.csproj.ResolveComReference.cache
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.exe
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.pdb
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\bin\Release\GPSTeachingSys.exe
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\bin\Release\GPSTeachingSys.pdb
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\bin\Release\Microsoft.CSharp.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\bin\Release\PresentationCore.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\bin\Release\PresentationFramework.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\bin\Release\stdole.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\bin\Release\System.Data.DataSetExtensions.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\bin\Release\System.Data.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\bin\Release\System.Deployment.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\bin\Release\System.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\bin\Release\System.Drawing.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\bin\Release\System.Web.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\bin\Release\System.Windows.Forms.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\bin\Release\System.Xaml.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\bin\Release\System.Xml.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\bin\Release\System.Xml.Linq.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\bin\Release\UIAutomationProvider.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\bin\Release\WindowsBase.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\bin\Release\WindowsFormsIntegration.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\bin\Release\Office.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\bin\Release\Microsoft.Office.Interop.Excel.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\bin\Release\Microsoft.mshtml.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\bin\Release\Microsoft.Vbe.Interop.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\bin\Release\Interop.Office.dll
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.Form1.resources
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\_3DGIS.FrmAboutBox.resources
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.BXLX.resources
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.CeShiDian.resources
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.DLSJ.resources
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.DMDW.resources
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.GJHFSZ.resources
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.GpxShuJuZhuanHuan.resources
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.KML.resources
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.LX.resources
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.MyPosition.resources
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.QingKongShuJuKu.resources
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.QRDH.resources
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.SheZhiTuPianShuXing.resources
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.SJGL.resources
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.XCCSSZ.resources
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.OtherForms.ZBDW.resources
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.Properties.Resources.resources
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.csproj.GenerateResource.Cache
+D:\项目\GPSTeachingSys\GPSTeachingSys\GPSTeachingSys\obj\x86\Release\GPSTeachingSys.csprojResolveAssemblyReference.cache

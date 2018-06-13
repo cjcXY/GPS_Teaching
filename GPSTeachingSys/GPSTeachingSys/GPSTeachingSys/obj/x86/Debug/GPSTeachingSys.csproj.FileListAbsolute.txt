@@ -1,0 +1,72 @@
+C:\Users\cjc小隐\Desktop\GPSTeachingSys\GPSTeachingSys\bin\Debug\GPSTeachingSys.exe
+C:\Users\cjc小隐\Desktop\GPSTeachingSys\GPSTeachingSys\bin\Debug\GPSTeachingSys.pdb
+C:\Users\cjc小隐\Desktop\GPSTeachingSys\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.csprojResolveAssemblyReference.cache
+C:\Users\cjc小隐\Desktop\GPSTeachingSys\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.Form1.resources
+C:\Users\cjc小隐\Desktop\GPSTeachingSys\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.Properties.Resources.resources
+C:\Users\cjc小隐\Desktop\GPSTeachingSys\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.csproj.GenerateResource.Cache
+C:\Users\cjc小隐\Desktop\GPSTeachingSys\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.exe
+C:\Users\cjc小隐\Desktop\GPSTeachingSys\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.pdb
+C:\Users\cjc小隐\Desktop\项目\GPSTeachingSys - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.exe
+C:\Users\cjc小隐\Desktop\项目\GPSTeachingSys - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.pdb
+C:\Users\cjc小隐\Desktop\项目\GPSTeachingSys - 副本\GPSTeachingSys\bin\Debug\GPSTeachingSys.exe
+C:\Users\cjc小隐\Desktop\项目\GPSTeachingSys - 副本\GPSTeachingSys\bin\Debug\GPSTeachingSys.pdb
+C:\Users\cjc小隐\Desktop\项目\GPSTeachingSys - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.csprojResolveAssemblyReference.cache
+C:\Users\cjc小隐\Desktop\项目\GPSTeachingSys - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.Form1.resources
+C:\Users\cjc小隐\Desktop\项目\GPSTeachingSys - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.Properties.Resources.resources
+C:\Users\cjc小隐\Desktop\项目\GPSTeachingSys - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.csproj.GenerateResource.Cache
+C:\Users\cjc小隐\Desktop\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.exe
+C:\Users\cjc小隐\Desktop\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.pdb
+C:\Users\cjc小隐\Desktop\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\bin\Debug\GPSTeachingSys.exe
+C:\Users\cjc小隐\Desktop\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\bin\Debug\GPSTeachingSys.pdb
+C:\Users\cjc小隐\Desktop\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.csprojResolveAssemblyReference.cache
+C:\Users\cjc小隐\Desktop\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.Form1.resources
+C:\Users\cjc小隐\Desktop\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.Properties.Resources.resources
+C:\Users\cjc小隐\Desktop\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.csproj.GenerateResource.Cache
+C:\Users\cjc小隐\Desktop\项目\GPSTeachingSys - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.OtherForms.DMDW.resources
+C:\Users\cjc小隐\Desktop\项目\GPSTeachingSys - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.OtherForms.ZBDW.resources
+C:\Users\cjc小隐\Desktop\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.OtherForms.DMDW.resources
+C:\Users\cjc小隐\Desktop\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.OtherForms.ZBDW.resources
+C:\Users\cjc小隐\Desktop\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\bin\Debug\stdole.dll
+C:\Users\cjc小隐\Desktop\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.csproj.ResolveComReference.cache
+C:\Users\cjc小隐\Desktop\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.OtherForms.LX.resources
+C:\Users\cjc小隐\Desktop\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.OtherForms.XCCSSZ.resources
+C:\Users\cjc小隐\Desktop\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.OtherForms.GJHFSZ.resources
+C:\Users\cjc小隐\Desktop\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.OtherForms.QRDH.resources
+C:\Users\cjc小隐\Desktop\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.OtherForms.BXLX.resources
+C:\Users\cjc小隐\Desktop\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.OtherForms.SheZhiTuPianShuXing.resources
+C:\Users\cjc小隐\Desktop\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.OtherForms.SJGL.resources
+C:\Users\cjc小隐\Desktop\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.OtherForms.DLSJ.resources
+C:\Users\cjc小隐\Desktop\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.OtherForms.CeShiDian.resources
+C:\Users\cjc小隐\Desktop\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.OtherForms.MyPosition.resources
+C:\Users\cjc小隐\Desktop\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.OtherForms.GpxShuJuZhuanHuan.resources
+C:\Users\cjc小隐\Desktop\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\Interop.Office.dll
+C:\Users\cjc小隐\Desktop\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.OtherForms.QingKongShuJuKu.resources
+D:\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\Interop.Office.dll
+D:\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.csproj.ResolveComReference.cache
+D:\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.exe
+D:\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.pdb
+D:\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\bin\Debug\GPSTeachingSys.exe
+D:\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\bin\Debug\GPSTeachingSys.pdb
+D:\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\bin\Debug\stdole.dll
+D:\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.csprojResolveAssemblyReference.cache
+D:\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.Form1.resources
+D:\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.OtherForms.BXLX.resources
+D:\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.OtherForms.CeShiDian.resources
+D:\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.OtherForms.DLSJ.resources
+D:\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.OtherForms.DMDW.resources
+D:\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.OtherForms.GJHFSZ.resources
+D:\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.OtherForms.GpxShuJuZhuanHuan.resources
+D:\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.OtherForms.LX.resources
+D:\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.OtherForms.MyPosition.resources
+D:\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.OtherForms.QingKongShuJuKu.resources
+D:\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.OtherForms.QRDH.resources
+D:\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.OtherForms.SheZhiTuPianShuXing.resources
+D:\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.OtherForms.SJGL.resources
+D:\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.OtherForms.XCCSSZ.resources
+D:\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.OtherForms.ZBDW.resources
+D:\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.Properties.Resources.resources
+D:\项目\GPSTeachingSys - 副本 - 副本\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.csproj.GenerateResource.Cache
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\obj\x86\Debug\Interop.Office.dll
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.csproj.ResolveComReference.cache
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.exe
+D:\项目\GPSTeachingSys - 最新\GPSTeachingSys\obj\x86\Debug\GPSTeachingSys.pdb
